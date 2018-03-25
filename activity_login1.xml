@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e70f21"
+    tools:context="com.example.pc.myapplication.login1">
+
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#234910"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="155dp">
+        android:orientation="vertical"
+
+
+    <Button
+        android:id="@+id/acanteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bcanteen"
+        android:layout_alignLeft="@+id/bcanteen"
+        android:layout_alignStart="@+id/bcanteen"
+        android:layout_marginBottom="63dp"
+        android:layout_weight="1"
+        android:text="ARRBYS" />
+
+    <Button
+        android:id="@+id/bcanteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="CAFETERIA"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+
+</RelativeLayout>

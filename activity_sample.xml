@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c2fd25d"
+    tools:context="com.example.pc.myapplication.sample">
+
+    <LinearLayout
+
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="bold"
+            android:text="FOOD ZONE"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#f4842f"
+            android:textSize="30dp"
+            android:id="@+id/fz"
+
+            android:textStyle="bold" />
+
+
+      <LinearLayout android:layout_width="match_parent"
+          android:layout_height="wrap_content" android:orientation="vertical">
+
+
+          <EditText
+              android:id="@+id/uname"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="enter username"
+              android:textSize="25dp" />
+
+
+
+
+          <EditText
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:hint="enter password"
+              android:id="@+id/upass"
+              android:textSize="25dp" />
+
+      </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/signupbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:text="signup"
+                android:textColor="#4407b4"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="login"
+                android:textColor="#4407b4"
+                android:textSize="20dp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
